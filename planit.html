@@ -1,0 +1,879 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Planit :  Career Areas</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="HandheldFriendly" content="True">
+    <link rel="search" href="/opensearchdescription.xml"
+          type="application/opensearchdescription+xml" title="Planit Search" />
+    <link rel="stylesheet" type="text/css" href="/Content/CSS/glyphicons.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/CSS/glyphicons-social.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/CSS/glyphicons-halflings.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/CSS/glyphicons-filetypes.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/CSS/glyphicons-custom.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/CSS/simplegrid.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/CSS/PlanITCore.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/CSS/moreSites.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/CSS/jQueryUI/base/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/CSS/gatewaycookiebanner.css" />
+    
+    <script src="/Content/Scripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="/Content/Scripts/jquery.validate.js" type="text/javascript"></script>
+    <script src="/Content/Scripts/jquery.validate.unobtrusive.js" type="text/javascript"></script>
+    <script src="/Content/Scripts/additional-methods.js" type="text/javascript"></script>
+    <script src="/Content/Scripts/jquery-ui-1.10.1.custom.js" type="text/javascript"></script>
+    <script src="/Content/Scripts/PlanItParentLayout.js?v=1.1" type="text/javascript"></script>
+    <script src="/Content/Scripts/jquery.cookie.js" type="text/javascript"></script>
+    <script src="/Content/Scripts/jquery.gatewaycookiebanner.js" type="text/javascript"></script>
+
+
+
+    <script src="/Content/Scripts/Calendar/moment.js" type="text/javascript"></script>
+    <script src="/Content/Scripts/Calendar/jquery.eventCalendar.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/Content/CSS/eventCalendar.css">
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/Content/Images/Favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Content/Images/Favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Content/Images/Favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Content/Images/Favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Content/Images/Favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Content/Images/Favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Content/Images/Favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Content/Images/Favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Content/Images/Favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Content/Images/Favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Content/Images/Favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/Content/Images/Favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Content/Images/Favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Content/Images/Favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/Content/Images/Favicons/manifest.json">
+    <link rel="shortcut icon" href="/Content/Images/Favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ff3333">
+    <meta name="msapplication-TileImage" content="/Content/Images/Favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Content/Images/Favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    
+
+        <link rel="stylesheet" type="text/css" href="/Content/CSS/PlanITCareers.css" />    
+        <script src="/Content/Scripts/jquery.imagemapster.min.js" type="text/javascript"></script>
+
+
+
+    <!--[if lt IE 9]>
+        <script src="https://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Content/CSS/PlanITIEMenu.css"/>
+    <![endif]-->
+    <!--[if gt IE 9]><!-->
+    <script>
+        document.addEventListener("touchstart", function () { }, true);
+    </script>
+    <!--
+    <![endif]-->
+    <!-- Mobile Menu -->
+    <!--[if gt IE 9]><!-->
+    <script>
+        $(document).ready(function () {
+            $("li.open-menu").on('click', function () {
+                $("li.main").addClass("show");
+                $("li.close-menu").addClass("show");
+                $("li.open-menu").removeClass("show");
+            });
+
+            $("li.close-menu").on('click', function () {
+                $("li.main").removeClass("show");
+                $("li.close-menu").removeClass("show");
+                $("li.open-menu").addClass("show");
+                $("div.dropdown-careers, div.dropdown-learning, div.dropdown-schools, div.dropdown-links, div.dropdown-job, div.dropdown-apprenticeships").removeClass("show");
+                $("span.glyphicons-close-careers, span.glyphicons-close-learning, span.glyphicons-close-schools, span.glyphicons-close-job, span.glyphicons-close-links, span.glyphicons-close-apprenticeships").removeClass("show");
+                $("span.glyphicons-open-careers, span.glyphicons-open-learning, span.glyphicons-open-schools, span.glyphicons-open-job, span.glyphicons-open-links, span.glyphicons-open-apprenticeships").addClass("show");
+                $("div.main.careers, div.main.learning, div.main.schools, div.main.links, div.main.job, div.apprenticeships.main").removeClass("highlighted");
+            });
+
+            $("div.main.careers").on('click', function () {
+                $("div.dropdown-careers").toggleClass("show");
+                $("div.dropdown-learning, div.dropdown-schools, div.dropdown-links, div.dropdown-apprenticeships").removeClass("show");
+                $("span.glyphicons-careers").toggleClass("show");
+                $("span.glyphicons-close-learning, span.glyphicons-close-schools, span.glyphicons-close-job, span.glyphicons-close-links, span.glyphicons-close-apprenticeships").removeClass("show");
+                $("span.glyphicons-open-learning, span.glyphicons-open-schools, span.glyphicons-open-job, span.glyphicons-open-links, span.glyphicons-open-apprenticeships").addClass("show");
+                $("div.main.careers").toggleClass("highlighted");
+                $("div.main.learning, div.main.schools, div.main.job, div.main.links, div.apprenticeships.links").removeClass("highlighted");
+            });
+
+            $("div.main.learning").on('click', function () {
+                $("div.dropdown-learning").toggleClass("show");
+                $("div.dropdown-careers, div.dropdown-schools, div.dropdown-links, div.dropdown-apprenticeships").removeClass("show");
+                $("span.glyphicons-learning").toggleClass("show");
+                $("span.glyphicons-close-careers, span.glyphicons-close-schools, span.glyphicons-close-job, span.glyphicons-close-links, span.glyphicons-close-apprenticeships").removeClass("show");
+                $("span.glyphicons-open-careers, span.glyphicons-open-schools, span.glyphicons-open-job, span.glyphicons-open-links, span.glyphicons-open-apprenticeships").addClass("show");
+                $("div.main.learning").toggleClass("highlighted");
+                $("div.main.careers, div.main.schools, div.main.job, div.main.links, div.main.apprenticeships").removeClass("highlighted");
+            });
+
+            $("div.main.schools").on('click', function () {
+                $("div.dropdown-schools").toggleClass("show");
+                $("div.dropdown-learning, div.dropdown-careers, div.dropdown-job, div.dropdown-links, div.dropdown-apprenticeships").removeClass("show");
+                $("span.glyphicons-schools").toggleClass("show");
+                $("span.glyphicons-close-learning, span.glyphicons-close-careers, span.glyphicons-close-job, span.glyphicons-close-links, span.glyphicons-close-apprenticeships").removeClass("show");
+                $("span.glyphicons-open-learning, span.glyphicons-open-careers, span.glyphicons-open-job, span.glyphicons-open-links, span.glyphicons-open-apprenticeships").addClass("show");
+                $("div.main.schools").toggleClass("highlighted");
+                $("div.main.learning, div.main.careers, div.main.job, div.main.links, div.apprenticeships.main").removeClass("highlighted");
+            });
+
+            $("div.main.apprenticeships").on('click', function () {
+                $("div.dropdown-apprenticeships").toggleClass("show");
+                $("div.dropdown-learning, div.dropdown-careers, div.dropdown-job, div.dropdown-links, div.dropdown-schools").removeClass("show");
+                $("span.glyphicons-apprenticeships").toggleClass("show");
+                $("span.glyphicons-close-learning, span.glyphicons-close-careers, span.glyphicons-close-job, span.glyphicons-close-links, span.glyphicons-close-schools").removeClass("show");
+                $("span.glyphicons-open-learning, span.glyphicons-open-careers, span.glyphicons-open-job, span.glyphicons-open-links, span.glyphicons-open-schools").addClass("show");
+                $("div.main.apprenticeships").toggleClass("highlighted");
+                $("div.main.learning, div.main.careers, div.main.job, div.main.links, div.main.schools").removeClass("highlighted");
+            });
+
+            $("div.main.job").on('click', function () {
+                $("div.dropdown-job").toggleClass("show");
+                $("div.dropdown-learning, div.dropdown-careers, div.dropdown-links, div.dropdown-schools, div.dropdown-apprenticeships").removeClass("show");
+                $("span.glyphicons-job").toggleClass("show");
+                $("span.glyphicons-close-learning, span.glyphicons-close-careers, span.glyphicons-close-links, span.glyphicons-close-schools, span.glyphicons-close-apprenticeships").removeClass("show");
+                $("span.glyphicons-open-learning, span.glyphicons-open-careers, span.glyphicons-open-links, span.glyphicons-open-schools, span.glyphicons-open-apprenticeships").addClass("show");
+                $("div.main.job").toggleClass("highlighted");
+                $("div.main.learning, div.main.careers, div.main.links, div.schools.main, div.apprenticeships.main").removeClass("highlighted");
+            });
+
+            $("div.main.links").on('click', function () {
+                $("div.dropdown-links").toggleClass("show");
+                $("div.dropdown-learning, div.dropdown-schools, div.dropdown-careers, div.dropdown-job, div.dropdown-apprenticeships").removeClass("show");
+                $("span.glyphicons-links").toggleClass("show");
+                $("span.glyphicons-close-learning, span.glyphicons-close-schools, span.glyphicons-close-careers, span.glyphicons-close-job, span.glyphicons-close-apprenticeships").removeClass("show");
+                $("span.glyphicons-open-learning, span.glyphicons-open-schools, span.glyphicons-open-careers, span.glyphicons-open-job, span.glyphicons-open-apprenticeships").addClass("show");
+                $("div.main.links").toggleClass("highlighted");
+                $("div.main.learning, div.main.schools, div.main.careers, div.main.job, div.apprenticeships.main").removeClass("highlighted");
+            });
+        });
+    </script>
+    <!--
+        <![endif]-->
+    <script>
+        if (jQuery.cookie('cc') !== "0") {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments);
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-160146-25', 'auto');
+            ga('send', 'pageview');
+        }
+    </script>
+</head>
+
+<body xml:lang="en-GB" lang="en-gb">
+    <div id="eantics"></div>
+
+    <!-- Header -->
+    <h1 class="hidden-h1">Planit</h1>
+    <div class="header grid grid-pad">
+        <div class="col-1-3 mobile-col-2-3">
+            <a href="/" title="Planit Home">
+                <img class="logo" src="/Content/Images/Logos/planit-logo.png" title="Planit" alt="Planit Home" />
+            </a>
+        </div>
+
+            <div class="col-2-7 hide-on-mobile">
+<form action="/Portfolio/SignIn" id="SignIn" method="post"><input name="__RequestVerificationToken" type="hidden" value="c-ZsYZ_nzJ3qMtKvZqWWZVcNm7rqp_P9_y96pusjlO1gsoWuffsdc8t28FLHe1oFrRDA7JXTaxgj825r0jDpvvsTJ-MBjvwhIgmwkL7OdrPjWJP2-9QslaAXdCRsstUNVO9oXQ2" /><div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div><input id="ReturnURL" name="ReturnURL" type="hidden" value="" />    <div class="login-div portfolio"><label for="UserName">Username</label> <span class="field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="false">*</span></div>
+    <div class="username-input portfolio"><input data-val="true" data-val-required="Enter your Username" id="UserName" name="UserName" placeholder="Enter your username..." type="text" value="" /></div>
+    <br />
+    <div class="login-div portfolio"><label for="Password">Password</label> <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="false">*</span></div>
+    <div class="password-input portfolio"><input autocomplete="off" data-val="true" data-val-required="Enter your Password" id="Password" name="Password" placeholder="Enter your password..." type="password" /></div>
+    <input class="login-submit portfolio" type="submit" id="signin" name="signin" value="Sign In" />
+</form>
+            </div>
+
+        <div class="col-7619-20000">
+                <div class="signed-in hide-on-mobile register">
+                    <a href="/Portfolio/SignUp/" title="Portfolio Sign Up">Sign Up</a>
+                </div>
+            <div class="socialButtons">
+                <a class="" href="https://twitter.com/planitcareers/" title="Follow us on Twitter"><span aria-hidden="true" class="social social-twitter"></span><span class="sr-only">Follow us on Twitter</span></a>
+            </div>
+<form action="/Search/Results" class="search" method="get">    <div class="login-div">
+        <select id="SearchTypeOnMenu" name="SearchTypeOnMenu" title="Select search type"><option value="Articles">Articles</option>
+<option value="Jobs">Jobs</option>
+<option selected="selected" value="Courses">Courses</option>
+<option value="Web Links">Web Links</option>
+</select>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" style="enable-background: new 0 0 48 48;" xml:space="preserve">
+            <g id="glyphicons">
+                <g id="chevron-down">
+                    <path id="chevron_x5F_down" d="M24,31.17L13.507,20.677l2.672-2.672L24,25.816L31.816,18l2.676,2.676L24,31.17z" fill="white" />
+                </g>
+            </g>
+            <g id="Layer_2">
+            </g>
+        </svg>
+    </div>
+<input class="input-validation-error" data-val="true" data-val-required="The SearchText field is required." id="SearchText" name="SearchText" placeholder="Search Planit..." title="Enter text to search Planit" type="text" value="" /><input data-val="true" data-val-required="The IsTitleOnly field is required." id="IsTitleOnly" name="IsTitleOnly" type="hidden" value="False" />    <div class="search-button">
+        <input class="glyphicons" type="submit" id="submitButton" value="&#XE028;" title="Search" />
+    </div>
+</form>
+        </div>
+    </div>
+
+    <!-- Navigation Menu -->
+
+    <div class="btnContainer">
+        <nav class="nav">
+            <ul class="main">
+                <li class="main open-menu hide-on-tablet hide-on-desktop show">
+                    <div class="main" title="Open Menu"><span class="open-menu"><span class="glyphicons show glyphicons-menu-hamburger"></span>Menu</span></div>
+                </li>
+                <li class="main close-menu hide-on-tablet hide-on-desktop">
+                    <div class="main" title="Close Menu"><span class="close-menu"><span class="glyphicons show glyphicons-remove-2"></span>Close Menu</span></div>
+                </li>
+
+                <li class="careers main">
+                    <div class="careers main" title="Careers">
+                        <span class="glyphicons glyphicons-careers glyphicons-open-careers show glyphicons-chevron-down hide-on-desktop hide-on-tablet"></span><span class="glyphicons glyphicons-careers glyphicons-close-careers glyphicons-chevron-up hide-on-desktop hide-on-tablet"></span>Careers
+                    </div>
+                    <div class="dropdown-careers drop">
+                        <ul>
+                            <li><a href="/CareerAreas/" class="careers-drop" title="Career Areas">Career Areas</a></li>
+                            <li><a href="/JobProfiles/" class="careers-drop" title="Job Profiles">Careers A to Z</a></li>
+                            <li><a href="/CareerMatch/" class="careers-drop" title="CareerMatch">CareerMatch</a></li>
+                            <li><a href="/Publications/" class="careers-drop" title="Publications">Publications</a></li>
+                            <li><a href="/STEM/" class="careers-drop" title="STEM">STEM</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="learning main">
+                    <div class="learning main" title="Courses">
+                        <span class="glyphicons glyphicons-learning glyphicons-open-learning show glyphicons-chevron-down hide-on-desktop hide-on-tablet"></span><span class="glyphicons glyphicons-learning glyphicons-close-learning glyphicons-chevron-up hide-on-desktop hide-on-tablet"></span>Courses
+                    </div>
+                    <div class="dropdown-learning drop">
+                        <ul>
+                            <li><a href="/Articles/Learning/" class="learning-drop" title="Getting In">Getting In</a></li>
+                            <li><a href="/Articles/Learning/33?fromMenu=true" class="learning-drop" title="Funding">Funding</a></li>
+                            <li><a href="/Institutions/Colleges/" class="learning-drop" title="Colleges">Colleges</a></li>
+                            <li><a href="/Institutions/Universities/" class="learning-drop" title="Universities">Universities</a></li>
+                            <li><a href="/CourseMatch/" class="learning-drop" title="CourseMatch">CourseMatch</a></li>
+                            <li><a href="/Publications/" class="learning-drop" title="Publications">Publications</a></li>
+                            <li><a href="/GraduateApprenticeships/" class="learning-drop multi-line" title="Graduate Apprenticeships">Graduate Apprenticeships</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="schools main">
+                    <div class="schools main" title="Schools">
+                        <span class="glyphicons glyphicons-schools glyphicons-open-schools show glyphicons-chevron-down hide-on-desktop hide-on-tablet"></span><span class="glyphicons glyphicons-schools glyphicons-close-schools glyphicons-chevron-up hide-on-desktop hide-on-tablet"></span>Schools
+                    </div>
+                    <div class="dropdown-schools drop">
+                        <ul>
+                            <li><a href="/Schools/OptionChoices/" class="schools-drop" title="Option Choices">Option Choices</a></li>
+                            <li><a href="/Articles/Schools/" class="schools-drop" title="Articles">Articles</a></li>
+                            <li><a href="/Nationals/" class="schools-drop" title="Nationals">Nationals</a></li>
+                            <li><a href="/Nationals/AtoZ/" class="schools-drop" title="Nationals A to Z">Nationals A to Z</a></li>
+                            <li><a href="/Schools/SubjectCareerList/" class="schools-drop" title="Subject Career List">Subject Career List</a></li>
+                            <li><a href="/Schools/SubjectCareerPosters/" class="schools-drop" title="Subject Career Posters">Subject Posters</a></li>
+                            <li><a href="/FoundationApprenticeships/" class="schools-drop multi-line" title="Foundation Apprenticeships">Foundation Apprenticeships</a></li>
+                            <li><a href="/Leaflets/Careers/" class="schools-drop" title="Career Leaflets">Career Leaflets</a></li>
+                            <li><a href="/Schools/SubjectChoices/" class="schools-drop" title="Subject Choice">Subject Choice</a></li>
+                            <li><a href="/DocumentStore/CareerPlanOfAction.pdf" class="schools-drop" title="Career Plan Of Action : opens in new window." onclick="target = '_blank'; ga('send', 'event', 'PDF', 'Download', 'Career Plan Of Action');"><span class="glyphicons glyphicons-new-window hide-on-desktop hide-on-tablet show"></span>Career Plan Of Action</a></li>
+                            <li><a href="/Schools/CareerPathways/" class="schools-drop" title="Career Pathways">Career Pathways</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="apprenticeships main">
+                    <div class="apprenticeships main" title="Apprenticeships">
+                        <span class="glyphicons glyphicons-apprenticeships glyphicons-open-apprenticeships show glyphicons-chevron-down hide-on-desktop hide-on-tablet"></span><span class="glyphicons glyphicons-apprenticeships glyphicons-close-apprenticeships glyphicons-chevron-up hide-on-desktop hide-on-tablet"></span>Apprenticeships
+                    </div>
+                    <div class="dropdown-apprenticeships drop">
+                        <ul>
+                            
+                            <li><a href="/Apprenticeships/" class="apprenticeships-drop" title="About Apprenticeships">About</a></li>
+                            <li><a href="/FoundationApprenticeships/" class="apprenticeships-drop" title="Foundation Apprenticeships">Foundation</a></li>
+                            <li><a href="/ModernApprenticeships/" class="apprenticeships-drop" title="Modern Apprenticeships">Modern</a></li>
+                            <li><a href="/ModernApprenticeships/AtoZ/" class="apprenticeships-drop" title="Modern Apprenticeships A to Z">Modern A to Z</a></li>
+                            <li><a href="/GraduateApprenticeships/" class="apprenticeships-drop" title="Graduate Apprenticeships">Graduate</a></li>
+                            
+                            <li><a href="/DocumentStore/Apprenticeships_in_a_Nutshell.pdf" class="apprenticeships-drop multi-line" title="Apprenticeships in a Nutshell : opens in new window." onclick="target = '_blank'; ga('send', 'event', 'PDF', 'Download', 'Apprenticeships in a Nutshell');"><span class="glyphicons glyphicons-new-window hide-on-desktop hide-on-tablet show"></span>Apprenticeships in a Nutshell</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="job main"><a href="/JobSeekingSkills/" class="job main" title="Job Seeking Skills">Job Seeking Skills</a></li>
+                
+                <li class="links main">
+                    <div class="links main" title="Quick Links">
+                        <span class="glyphicons glyphicons-links glyphicons-open-links show glyphicons-chevron-down hide-on-desktop hide-on-tablet"></span><span class="glyphicons glyphicons-links glyphicons-close-links glyphicons-chevron-up hide-on-desktop hide-on-tablet"></span>Quick Links
+                    </div>
+                    <div class="dropdown-links drop">
+                        <ul>
+                            <li><a href="/JobProfiles/" class="links-drop" title="Careers A to Z">Careers A to Z</a></li>
+                            <li><a href="/CareerMatch/" class="links-drop" title="CareerMatch">CareerMatch</a></li>
+                            <li><a href="/CourseMatch/" class="links-drop" title="CourseMatch">CourseMatch</a></li>
+                            <li><a href="https://www.planitplus.net/Trainit/" class="links-drop" title="Interview Game : opens in new window." onclick="target='_blank';"><span class="glyphicons glyphicons-new-window hide-on-desktop hide-on-tablet show"></span>Interview Game</a></li>
+                            <li><a href="/Articles/" class="links-drop" title="Articles">Articles</a></li>
+                            <li><a href="/EasyCV/" class="links-drop" title="Easy CV">Easy CV</a></li>
+                            <li><a href="/CoveringLetters/" class="links-drop" title="Cover Letter Creator">Cover Letter Creator</a></li>
+                            <li><a href="/WebLinks/" class="links-drop" title="Web Links">Web Links</a></li>
+                            <li><a href="/DocumentStore/PlanitUserGuide.pdf" class="links-drop" title="User Guide : opens in new window." onclick="target='_blank'; ga('send', 'event', 'PDF', 'Download', 'User Guide');"><span class="glyphicons glyphicons-new-window hide-on-desktop hide-on-tablet show"></span>User Guide</a></li>
+                            
+                            <li><a href="/Schools/CareerPathways/" class="links-drop" title="Career Pathways">Career Pathways</a></li>
+                            <li><a href="/Publications/" class="links-drop" title="Publications">Publications</a></li>
+                            <li><a href="/Leaflets/Careers" class="links-drop" title="Career Leaflets">Career Leaflets</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="main portfolio hide-on-tablet hide-on-desktop">
+                        <div class="main">
+                            <a href="/Portfolio/" class="portfolio log-out" title="Portfolio">Portfolio</a>
+                            <a class="log-out-button" href="/Portfolio/" title="Sign In"><span aria-hidden="true" class="glyphicons float-right show glyphicons-unlock"></span><span class="sr-only">Sign In</span></a>
+                        </div>
+
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    
+
+
+
+
+
+<!-- Page Content -->
+        
+<div class="title-careers titleBox">
+    <div class="titleSquare"></div>
+    <h1>Career Areas</h1>
+</div>	
+
+<div class="grid grid-pad">
+
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/1" title="Administration and Management">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/1.jpg" title="Administration and Management" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Administration and Management
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/2" title="Animals, Land and Environment">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/2.jpg" title="Animals, Land and Environment" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Animals, Land and Environment
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/4" title="Art and Design">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/4.jpg" title="Art and Design" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Art and Design
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/5" title="Arts, Social Sciences and Languages">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/5.jpg" title="Arts, Social Sciences and Languages" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Arts, Social Sciences and Languages
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/6" title="Buying, Selling and Related Work">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/6.jpg" title="Buying, Selling and Related Work" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Buying, Selling and Related Work
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/7" title="Communications and Media">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/7.jpg" title="Communications and Media" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Communications and Media
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/8" title="Computing and ICT">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/8.jpg" title="Computing and ICT" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Computing and ICT
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/9" title="Construction">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/9.jpg" title="Construction" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Construction
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/10" title="Engineering">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/10.jpg" title="Engineering" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Engineering
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/11" title="Finance">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/11.jpg" title="Finance" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Finance
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/12" title="Garage Services">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/12.jpg" title="Garage Services" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Garage Services
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/13" title="Hairdressing, Beauty and Wellbeing">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/13.jpg" title="Hairdressing, Beauty and Wellbeing" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Hairdressing, Beauty and Wellbeing
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/14" title="Health and Medicine">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/14.jpg" title="Health and Medicine" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Health and Medicine
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/15" title="Hospitality, Leisure and Tourism">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/15.jpg" title="Hospitality, Leisure and Tourism" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Hospitality, Leisure and Tourism
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/16" title="Housing, Property and Facilities">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/16.jpg" title="Housing, Property and Facilities" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Housing, Property and Facilities
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/18" title="Information, Culture and Heritage">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/18.jpg" title="Information, Culture and Heritage" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Information, Culture and Heritage
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/17" title="Law">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/17.jpg" title="Law" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Law
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/19" title="Manufacturing Industries">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/19.jpg" title="Manufacturing Industries" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Manufacturing Industries
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/20" title="Performing Arts">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/20.jpg" title="Performing Arts" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Performing Arts
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/22" title="Personal and General Services">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/22.jpg" title="Personal and General Services" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Personal and General Services
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/21" title="Science and Mathematics">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/21.jpg" title="Science and Mathematics" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Science and Mathematics
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/23" title="Social, Caring and Advisory Services">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/23.jpg" title="Social, Caring and Advisory Services" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Social, Caring and Advisory Services
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/24" title="Sport">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/24.jpg" title="Sport" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Sport
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/25" title="Teaching and Classroom Support">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/25.jpg" title="Teaching and Classroom Support" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Teaching and Classroom Support
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/26" title="Transport and Distribution">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/26.jpg" title="Transport and Distribution" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Transport and Distribution
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/3" title="Uniformed and Security Services">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/3.jpg" title="Uniformed and Security Services" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Uniformed and Security Services
+                </a>
+            </div>
+        </div>
+        <div class="col-1-4 tablet-col-1-3">
+            <div class=" career-area">
+                <a class="career-areas-btn" href="/CareerAreas/View/27" title="Personal Development">
+                        <!--alt text removed to avoid repeating link text.  See http://www.w3.org/TR/WCAG20-TECHS/H2.html-->
+                        <img class="hide-on-mobile" src="/CareerAreaIndexImages/27.jpg" title="Personal Development" alt="" />
+                    <span class="glyphicons glyphicons-chevron-right hide-on-desktop hide-on-tablet"></span>
+                    Personal Development
+                </a>
+            </div>
+        </div>
+</div>
+
+
+
+    
+    <script type="text/javascript">
+    function showhideFeedbackForm(value) {
+        var divId = value;
+        $(divId).fadeToggle(1000, "linear");
+        $("#name").focus();
+    }
+</script>
+
+<!-- Feedback Box -->
+
+<div id="feedbackdiv" class="grid grid-pad feedbackBox"
+            style="display: none;"
+    >
+   <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+<form action="/Home/FeedbackEmail" id="feedbackForm" method="post">    <div class="feedback col-1-2">
+        <div class="feedbackTitleBox login-div">Feedback Form</div>
+        <div id="errormessage" class="errorFeedbackform error-message" style="display: none">
+            <span clear="all" />
+            &nbsp;
+        </div>
+
+
+
+        <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+        <div class="input-holder">
+            <div class="login-div">
+                Name
+
+            </div>
+            <input data-val="true" data-val-required="Enter your name" id="Name" name="Name" placeholder="Enter your Name" style="margin-top: 4px\9" title="Name" type="text" value="" /><br />
+        </div>
+
+        <span class="field-validation-valid" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+        <div class="input-holder">
+            <div class="login-div">Email</div>
+            <input data-val="true" data-val-email="Email is not in the correct format" data-val-required="Enter your email" id="EmailAddress" name="EmailAddress" placeholder="Enter your Email Address" style="margin-top: 4px\9" title="Email Address" type="text" value="" /><br />
+        </div>
+
+
+
+
+ 
+     
+        <div class="input-holder">
+            <div class="dummyclass">&nbsp;</div><span class="field-validation-valid" data-valmsg-for="notArobot" data-valmsg-replace="true"></span>
+                <div id="recaptcha2"></div>
+        </div>
+
+     
+     
+        <input class="submit" style="display: inline-block" type="submit" value="Submit" id="SubmitButton" name="SubmitButton" />
+       
+
+
+
+    </div>
+    <div class="feedback col-1-2">
+        <div class="messageTop login-div">Message</div>
+        <div class="message-error">
+            <span class="field-validation-valid" data-valmsg-for="Message" data-valmsg-replace="true"></span>
+            <div id="text-errormsg" style="display: none">Please remove https:// and/or http:// from your message.</div>
+        </div>
+        <textarea Title="Feedback message" cols="20" data-val="true" data-val-regex="HTML tags are not allowed." data-val-regex-pattern="[^&lt;>&amp;]*" data-val-required="Enter your message" id="Message" name="Message" placeholder="Please type your feedback here" rows="10">
+</textarea><br />
+
+    </div>
+    <div id="some-div">
+        If you see this, leave this form field blank.
+        <input id="body" name="body" title="blank field" type="text" value="" />
+    </div>
+<input data-val="true" data-val-range="Please complete reCAPTCHA !" data-val-range-max="True" data-val-range-min="True" data-val-required="Unticked" id="notArobot" name="notArobot" style="visibility:hidden;" type="checkbox" value="true" /><input name="notArobot" type="hidden" value="false" /></form>
+
+<script type="text/javascript">
+    // extend jquery range validator to work for required checkboxes
+    var defaultRangeValidator = $.validator.methods.range;
+    $.validator.methods.range = function (value, element, param)
+    {
+        var recaptcha = document.forms["feedbackForm"]["g-recaptcha-response"].value;
+
+        if (element.type === 'checkbox' && (element.id == 'notArobot' || element.name == 'notArobot'))
+        {
+            // if it's a checkbox named 'notArobot' set the checked property according to recaptcha -> return its value
+            if (recaptcha != "")
+            {
+                element.checked = true;
+                // $("#notArobot").prop("checked", true);
+            } else
+            {
+                element.checked = false;
+                //$("#notArobot").prop("checked", false);
+                // alert("Please fill reCAPTCHA"); //
+            }
+            return element.checked;
+        } else
+        {
+            // otherwise run the default validation function
+            return defaultRangeValidator.call(this, value, element, param);
+        }
+    }
+</script>
+
+<script type="text/javascript">
+
+    function recaptcha_successcallback()
+    {//reset the checkbox and its validator
+      //  alert("callback working");
+        $("#notArobot").prop("checked", true);
+        var validator = $("#feedbackForm").validate();
+        validator.element("#notArobot");
+    }
+    function recaptcha_expiredcallback()
+    {//reset the checkbox and its validator
+      //  alert("expired callback working");
+        $("#notArobot").prop("checked", false);
+        var validator = $("#feedbackForm").validate();
+        validator.element("#notArobot");
+    }
+
+
+</script>
+
+<script type="text/javascript">
+    var sitekey = '6LcjRNsSAAAAAMbFwqEa8QphK9gy0PmIVXpl-zqz';
+    var myCallBack = function ()
+    {
+        //alert("grecaptcha is ready!");
+        var recaptcha2;
+        recaptcha2 = grecaptcha.render('recaptcha2', {
+            'sitekey': sitekey
+            , 'theme': 'light'
+            , 'class': 'g-recaptcha'
+            , 'callback': 'recaptcha_successcallback'
+            , 'expired-callback': 'recaptcha_expiredcallback'
+        });
+    };
+
+
+
+
+
+</script>
+<script src='https://www.google.com/recaptcha/api.js?onload=myCallBack&render=explicit' async defer></script>
+
+<script type="text/javascript">
+    "use strict";
+    $(function ()
+    {
+
+        var toggleusernameerror = function (show)
+        {
+
+            var usernameid = '#text-errormsg';
+            if (show === true)
+            {
+                $(usernameid).show();
+                $('#SubmitButton').attr("disabled", true);
+                $('#SubmitButton').css({ 'background-color': '#D8D8D8', 'color': '#686868' });
+            } else
+            {
+                $(usernameid).hide();
+                $('#SubmitButton').attr("disabled", false);
+                $('#SubmitButton').css({ 'background-color': '', 'color': '' });
+            }
+        };
+
+        var checkusername = function (control)
+        {
+            $.ajax({
+                url: '/Home/CheckMessage?message=' + $(control).val(),
+                dataType: "json",
+                type: "GET",
+                contentType: 'application/json; charset=utf-8',
+                async: true,
+                processData: false,
+                cache: false,
+                success: function (data)
+                {
+                    toggleusernameerror(data);
+                }
+            });
+        };
+
+        $("#Message").focusout(function ()
+        {
+            checkusername(this);
+        });
+
+        $("#Message").focusin(function ()
+        {
+            toggleusernameerror(false);
+        });
+    });
+</script>
+
+</div>
+
+<!-- Footer -->
+
+<div class="footer">
+    <div class="grid grid-pad">
+        <div class="col-1-3">
+            <img alt="Planit" class="logo-white" src="/Content/Images/Logos/planit-logo-white.png" title="Planit" />
+        </div>
+        <div class="col-1-6">
+            <ul class="footer">
+                <li><a class="white" href="/Home/AboutUs/" title="About Us">About Us</a></li>
+                <li><a class="white" href="/Home/Accessibility/" title="Accessibility">Accessibility</a></li>
+                <li><a class="white" href="/Home/PrivacyPolicy/" title="Privacy Policy">Privacy Policy</a></li>
+                <li><a class="white" href="/Home/TCs/" title="TCs">T&amp;Cs</a></li>
+               
+            </ul>
+        </div>
+        <div class="col-1-6">
+            <ul class="footer">
+                <li><a class="white" href="/DocumentStore/PlanitUserGuide.pdf" title="User Guide : opens in new window." onclick="target='_blank'; ga('send', 'event', 'PDF', 'Download', 'User Guide');">User Guide</a></li>
+                <li><a class="white" href="/DocumentStore/PlanitPocketGuide.pdf" title="Pocket Guide : opens in new window." onclick="target = '_blank'; ga('send', 'event', 'PDF', 'Download', 'Pocket Guide');">Pocket Guide</a></li>
+                    
+                    <li><a class="white" href="javascript:showhideFeedbackForm(feedbackdiv);">feedback form</a></li>
+                <li><a class="white" href="https://twitter.com/planitcareers" title="Follow us on Twitter" onclick="target='_blank';"><span class="social social-twitter" style="font-size:1.3em; margin-bottom:-1px;" title="Follow us on Twitter"></span> &commat;planitcareers</a><br />
+                </li>
+                <li><a class="white" href="/UCASAdvise/" title="UCAS Advise">UCAS Adviser Portal Training</a></li>
+                <li><a class="white" href="/Publications/" title="Publications">Publications</a></li>
+            </ul>
+        </div>
+        <div class="col-1-3">
+            <img alt="Gateway" class="logo-white float-right" src="/Content/Images/Logos/gatewayLogo.png" title="Gateway" />
+        </div>
+    </div>
+</div>
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            planItParentLayoutController.init($(this), "/Search/AutoCompleteSearch?searchType=theType");
+        });
+    </script>
+</body>
+</html>
