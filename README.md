@@ -11,7 +11,7 @@
 
 - [Key Insights](#key-insights)
 
-- [Challenges and Solutions](#challenges-and-solution)
+- [Challenges and Solutions](#challenges-and-solutions)
 
 
 
