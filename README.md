@@ -18,7 +18,7 @@
 
 ### Project Overview
 This project analyzes Dominion city Olive Parish Sunday service attendance from January to October data to uncover trends and patterns, providing actionable insights for strategic planning. It focuses on improving attendance tracking and creating meaningful visualizations for stakeholders.
-![DAshboard](original.png)
+![DAshboard](https://github.com/Uchenna-eucharia/dc-pro-webscrapping/blob/main/original.png) 
 
 ### Objectives
 -	Track Total Attendance: Ensure accurate tracking of all individuals attending church services, avoiding duplicate entries across dates.
